@@ -21,21 +21,4 @@
 3. Запустіть застосунок
    npm start
 
-## Структура проєкту
-
-FirstMobileApp/
-├── App.js # головний файл додатку
-├── package.json # залежності і скрипти
-├── src/
-│         assets/ #зображення
-│       ├── images.jpg
-│       ├── news.png
-│       └── university-colored.png
-│       screens/ # екрани додатку
-│       ├── HomeScreen.js
-│       ├── GalleryScreen.js
-│       └── ProfileScreen.js
-├── screenshots/# скріншоти для README.md
-└── README.md 
-
 
