@@ -1,4 +1,4 @@
-#FirstMobileApp_
+# FirstMobileApp 
 
 Простий мобільний застосунок на React Native що має три головних екрани:
 - **Новини**
