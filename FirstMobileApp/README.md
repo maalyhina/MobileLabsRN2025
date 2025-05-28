@@ -1,10 +1,10 @@
-#FirstMobileApp_
+# FirstMobileApp 
 
 Простий мобільний застосунок на React Native що має три головних екрани:
 - **Новини**
 - **Фотогалерея**
 - **Профіль користувача**
-- 
+  
 ## Скріншоти
 
 - [Новини](./screenshots/photo_2025-05-25_00-01-47.jpg)
@@ -20,22 +20,5 @@
    npm install @react-navigation/material-top-tabs react-native-tab-view react-native-pager-view
 3. Запустіть застосунок
    npm start
-
-## Структура проєкту
-
-FirstMobileApp/
-├── App.js # головний файл додатку
-├── package.json # залежності і скрипти
-├── src/
-│         assets/ #зображення
-│       ├── images.jpg
-│       ├── news.png
-│       └── university-colored.png
-│       screens/ # екрани додатку
-│       ├── HomeScreen.js
-│       ├── GalleryScreen.js
-│       └── ProfileScreen.js
-├── screenshots/# скріншоти для README.md
-└── README.md 
 
 
