@@ -1,0 +1,45 @@
+{
+  "name": "thirdmobileapp",
+  "version": "1.0.0",
+  "main": "lib/blame/index.js",
+  "scripts": {
+    "posttest": "./node_modules/.bin/nsp check",
+    "test": "./node_modules/.bin/lab -f -t 100 -m 3000",
+    "test-coverage": "./node_modules/.bin/lab -L -f -r html -m 3000 -o report.html"
+  },
+  "keywords": [
+    "error",
+    "trace",
+    "backtrace",
+    "blame",
+    "stack-traces"
+  ],
+  "author": "Rogier Spieker <rogier+npm@konfirm.eu>",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/konfirm/node-blame/issues"
+  },
+  "homepage": "https://github.com/konfirm/node-blame",
+  "devDependencies": {
+    "code": "^4.0.0",
+    "coveralls": "^2.13.1",
+    "eslint-config-hapi": "^10.0.0",
+    "eslint-plugin-hapi": "^4.0.0",
+    "lab": "^13.0.4",
+    "nsp": "^2.6.3"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^7.1.9",
+    "@react-navigation/native-stack": "^7.3.13",
+    "polymorphic": "^1.4.1",
+    "react-native-gesture-handler": "^2.25.0",
+    "react-native-reanimated": "^3.18.0",
+    "react-native-safe-area-context": "^5.4.1",
+    "react-native-screens": "^4.11.1",
+    "react-native-vector-icons": "^10.2.0"
+  },
+  "private": true
+}
