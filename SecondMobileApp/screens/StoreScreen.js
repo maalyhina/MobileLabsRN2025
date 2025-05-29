@@ -3,7 +3,7 @@ import { FlatList, TouchableOpacity, View } from 'react-native';
 import styled from 'styled-components/native';
 import { useTheme } from '@react-navigation/native';
 import Header from '../components/HeaderLogo';
-import GameCard from '../components/GameCard'; // <-- імпорт GameCard
+import GameCard from '../components/GameCard';
 
 const GAME_DATA = {
     'Top Sellers': [
