@@ -6,7 +6,7 @@ import TasksScreen from '../src/screens/TasksScreen';
 
 const Stack = createNativeStackNavigator();
 
-export default function AppNavigator() {
+export default function Navigator() {
     return (
         <NavigationContainer>
             <Stack.Navigator initialRouteName="Home">
