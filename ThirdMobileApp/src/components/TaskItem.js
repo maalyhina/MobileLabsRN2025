@@ -3,16 +3,25 @@ import { View, Text, StyleSheet } from 'react-native';
 
 export default function TaskItem({ task }) {
     return (
-        <View style={[styles.item, task.completed && styles.completed]}>
-            <Text style={styles.text}>{task.title}</Text>
-            {task.completed && <Text style={styles.status}>✅</Text>}
+        <View style={styles.taskContainer}>
+            <Text style={[styles.taskText, task.done && styles.done]}>
+                {task.title}
+            </Text>
         </View>
     );
 }
 
 const styles = StyleSheet.create({
-    item: { padding: 15, borderBottomWidth: 1, borderColor: '#ccc', flexDirection: 'row', justifyContent: 'space-between' },
-    completed: { backgroundColor: '#d4edda' },
-    text: { fontSize: 16 },
-    status: { fontSize: 16 },
+    taskContainer: {
+        padding: 12,
+        borderBottomColor: '#ddd',
+        borderBottomWidth: 1,
+    },
+    taskText: {
+        fontSize: 18,
+    },
+    done: {
+        textDecorationLine: 'line-through',
+        color: 'green',
+    },
 });

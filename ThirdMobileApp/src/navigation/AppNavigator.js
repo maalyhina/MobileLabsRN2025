@@ -1,12 +1,12 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import HomeScreen from '../src/screens/HomeScreen';
-import TasksScreen from '../src/screens/TasksScreen';
+import HomeScreen from '../screens/HomeScreen';
+import TasksScreen from '../screens/TasksScreen';
 
 const Stack = createNativeStackNavigator();
 
-export default function Navigator() {
+export default function AppNavigator() {
     return (
         <NavigationContainer>
             <Stack.Navigator initialRouteName="Home">
