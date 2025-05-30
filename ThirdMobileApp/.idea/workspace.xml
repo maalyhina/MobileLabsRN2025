@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="683c3a31-d7eb-4ad8-a9f1-5f50b4cfa560" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Rebasing main",
+    "last_opened_file_path": "D:/step 2/2s/React/MobileLabsRN2025/FileManagerApp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,6 +60,8 @@
       <workItem from="1748527155710" duration="727000" />
       <workItem from="1748527942038" duration="1681000" />
       <workItem from="1748537605271" duration="10039000" />
+      <workItem from="1748592151273" duration="2000" />
+      <workItem from="1748592475975" duration="38000" />
     </task>
     <servers />
   </component>
